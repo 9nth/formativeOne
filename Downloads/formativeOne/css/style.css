@@ -1,0 +1,159 @@
+/* body {
+  background-color: green;
+  color: yellow;
+} */
+
+/*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: #f9f9f0;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+
+}
+.img img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-head {
+  text-decoration: none;
+  font-size: 150%;
+  padding: 0.5%;
+  color: #444444;
+  font-weight: bold;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.searchCont {
+  display: flex;
+  justify-content: center;
+
+}
+
+.search {
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 1.5px solid #444444;
+}
+
+.fa-search {
+  line-height: 1.5;
+  font-size: 150%;
+  text-decoration: none;
+  height: 50%;
+  color: #444444;
+  padding-right: 0.2%;
+  background: white;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: 1.5px solid #444444;
+  padding-left: 0.5%;
+  padding-right: 0.3%;
+}
+
+.searchBtnCont {
+  display: flex;
+  justify-content: center;
+}
+
+#searchBtn {
+  border-radius: 12px;
+  background: #cf4520;
+  border: none;
+  width: 8%;
+  margin-top: 1%;
+  color: #f9f9f0;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-right: 10%;
+}
+
+.buttons button {
+  border-radius: 18px;
+  width: 15%;
+  font-weight: bold;
+  background: none;
+  color: #cf4520;
+  padding: 0.2%;
+  border: none;
+  font-size: 150%;
+}
+
+.buttons button:hover {
+  background: none;
+  color: #473729;
+  border: none;
+}
+
+
+#objects {
+  padding-top: 1%;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.card {
+  padding: 5%;
+  height: 400px;
+  overflow: scroll;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px 1px #000, 0px 1px 7px 0px #8c8b8b;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.financeHead,
+.sportsHead,
+.weatherHead {
+  display: none;
+}
+
+/* About Page */
+
+.logoAbout {
+  display: flex;
+  justify-content: center;
+}
+
+.newsLogoAbout {
+  width: 30%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  font-size: 150%;
+  width: 70%;
+}
